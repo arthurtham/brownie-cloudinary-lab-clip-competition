@@ -1,0 +1,17 @@
+div.container {
+    padding-top: 20px;
+}
+
+div.container.body-container {
+    border: 1px;
+    background-color: var(--bs-white) !important;
+    padding: 75px clamp(0px, 10%, 100px) 200px clamp(0px, 10%, 100px) !important;
+    box-shadow: 0px 0px 10px #a58e8e;
+}
+
+body {
+    background-color: var(--bs-gray) !important;
+    display: grid;
+    align-items: top;
+    grid-template-rows: auto 1fr auto;
+}

@@ -1,0 +1,10 @@
+# Docker YAML
+compose-dev.yaml
+
+# Composer Files
+composer.phar
+composer.json
+vendor
+
+# Cloudinary ENV file
+includes/cloudinary.env.php
